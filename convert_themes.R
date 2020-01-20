@@ -1,19 +1,17 @@
 library(rstudioapi)
 
-# Removes themes
-removeTheme(name = 'ayu light')
-removeTheme(name = 'ayu dark')
-removeTheme(name = 'ayu mirage')
-
-# Converts .tmTheme files to .rstheme
+# Converts .tmTheme files to .rstheme and applys 
 convertTheme(themePath = 'tmTheme/ayu-light.tmTheme',
-                         outputLocation = 'rstheme/')
-convertTheme(themePath = 'tmTheme/ayu-dark.tmTheme',
-                         outputLocation = 'rstheme/')
-convertTheme(themePath = 'tmTheme/ayu-mirage.tmTheme',
-                         outputLocation = 'rstheme/')
+             outputLocation = 'rstheme/',
+             apply = TRUE,
+             force = TRUE)
 
-# Apply themes
-applyTheme('ayu dark')
-applyTheme('ayu light')
-applyTheme('ayu mirage')
+convertTheme(themePath = 'tmTheme/ayu-dark.tmTheme',
+             outputLocation = 'rstheme/',
+             apply = TRUE,
+             force = TRUE)
+
+convertTheme(themePath = 'tmTheme/ayu-mirage.tmTheme',
+             outputLocation = 'rstheme/',
+             apply = TRUE,
+             force = TRUE)
