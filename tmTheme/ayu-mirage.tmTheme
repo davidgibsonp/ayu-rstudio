@@ -75,6 +75,17 @@
          </dict>
          <dict>
             <key>name</key>
+            <string>markup.heading</string>
+            <key>scope</key>
+            <string>markup.heading</string>
+            <key>settings</key>
+            <dict>
+               <key>foreground</key>
+               <string>#F28779</string>
+            </dict>
+         </dict>
+         <dict>
+            <key>name</key>
             <string>keyword</string>
             <key>scope</key>
             <string>keyword</string>

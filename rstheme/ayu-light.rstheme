@@ -115,6 +115,11 @@
   color: #55B4D4;
 
 }
+
+.ace_markup.ace_heading {
+  color: #F07171;
+
+}
 .nocolor.ace_editor .ace_line span {
   color: #fa8d3e !important;
 }
