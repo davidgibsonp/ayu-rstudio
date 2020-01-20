@@ -110,6 +110,11 @@
   color: #B3B1AD;
 
 }
+
+.ace_meta.ace_tag {
+  color: #39BAE6;
+
+}
 .nocolor.ace_editor .ace_line span {
   color: #ff8f40 !important;
 }

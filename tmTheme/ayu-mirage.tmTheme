@@ -31,6 +31,17 @@
          <!-- Colors -->
          <dict>
             <key>name</key>
+            <string></string>
+            <key>scope</key>
+            <string>meta.tag</string>
+            <key>settings</key>
+            <dict>
+               <key>foreground</key>
+               <string>#5CCFE6</string>
+            </dict>
+         </dict>
+         <dict>
+            <key>name</key>
             <string>support.function</string>
             <key>scope</key>
             <string>support.function</string>
