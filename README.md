@@ -1,7 +1,7 @@
 # Ayu Rstudio
 An Rstudio version of [@dempfi](https://github.com/dempfi) simple [ayu sublime theme](https://github.com/dempfi/ayu).
 
-* Have yet to implement any rstheme [Selector](https://rstudio.github.io/rstudio-extensions/rstudio-theme-creation.html)
+* Have yet to implement any ui components
 
 ### Install
 *Run in Rstudio*
@@ -12,7 +12,7 @@ An Rstudio version of [@dempfi](https://github.com/dempfi) simple [ayu sublime t
 install.packages("rstudioapi")
 ```
 
-2. Install desired themes. **mirage** is my personal favorite :).
+2. Install desired themes. **mirage** is my personal favorite :)
 
 ```R
 library(rstudioapi)
