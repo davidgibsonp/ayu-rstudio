@@ -4,15 +4,28 @@ An Rstudio version of [@dempfi](https://github.com/dempfi) simple [ayu sublime t
 * Have yet to implement any rstheme [Selector](https://rstudio.github.io/rstudio-extensions/rstudio-theme-creation.html)
 
 ### Install
-To install and apply in Rstudio simple run
+*Run in Rstudio*
+
+1. Install `rstudioapi`
 
 ```R
-# light
-rstudioapi::addTheme("https://github.com/davidgibsonp/ayu-rstudio/blob/master/rstheme/ayu-light.rstheme", apply = TRUE)
+install.packages("rstudioapi")
+```
 
-# dark
-rstudioapi::addTheme("https://github.com/davidgibsonp/ayu-rstudio/blob/master/rstheme/ayu-dark.rstheme", apply = TRUE)
+2. Install desired themes. **mirage** is my personal favorite :).
+
+```R
+library(rstudioapi)
 
 # mirage
-rstudioapi::addTheme("https://github.com/davidgibsonp/ayu-rstudio/blob/master/rstheme/ayu-mirage.rstheme", apply = TRUE)
+addTheme("https://raw.githubusercontent.com/davidgibsonp/ayu-rstudio/master/rstheme/ayu-mirage.rstheme",
+         apply = TRUE, force = TRUE)
+
+# light
+addTheme("https://raw.githubusercontent.com/davidgibsonp/ayu-rstudio/master/rstheme/ayu-light.rstheme",
+         apply = TRUE, force = TRUE)
+
+# dark
+addTheme("https://raw.githubusercontent.com/davidgibsonp/ayu-rstudio/master/rstheme/ayu-dark.rstheme",
+         apply = TRUE, force = TRUE)
 ```
