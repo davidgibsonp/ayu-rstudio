@@ -120,6 +120,13 @@
   color: #F07171;
 
 }
+
+.ace_marker-layer .ace_active_debug_line {
+  color: #F51818;
+
+  position: absolute;
+  z-index: -1;
+}
 .nocolor.ace_editor .ace_line span {
   color: #fa8d3e !important;
 }
@@ -132,11 +139,6 @@
   position: absolute;
   z-index: -1;
   background-color: #F3F4F4;
-}
-.ace_marker-layer .ace_active_debug_line {
-  position: absolute;
-  z-index: -1;
-  background-color: #FDEC99;
 }
 .ace_marker-layer .ace_find_line {
   position: absolute;

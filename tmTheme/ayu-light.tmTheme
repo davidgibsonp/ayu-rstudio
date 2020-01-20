@@ -139,13 +139,24 @@
                <string>#ED9366</string>
             </dict>
          </dict>
+         <dict>
+            <key>name</key>
+            <string>marker-layer.active_debug_line</string>
+            <key>scope</key>
+            <string>marker-layer.active_debug_line</string>
+            <key>settings</key>
+            <dict>
+               <key>foreground</key>
+               <string>#F51818</string>
+            </dict>
+         </dict>
       </array>
       <key>uuid</key>
       <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
       <key>colorSpaceName</key>
       <string>sRGB</string>
       <key>semanticClass</key>
-      <string>theme.dark.monokai</string>
+      <string>theme.dark.ayu-light</string>
    </dict>
 </plist>
 
