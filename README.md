@@ -1,5 +1,5 @@
 # Ayu Rstudio
-An Rstudio version of [@dempfi](https://github.com/dempfi) simple [ayu sublime theme](https://github.com/dempfi/ayu).
+> An Rstudio version of [@dempfi](https://github.com/dempfi) simple [ayu sublime theme](https://github.com/dempfi/ayu).
 
 * Have yet to implement any ui components
 
@@ -29,3 +29,13 @@ addTheme("https://raw.githubusercontent.com/davidgibsonp/ayu-rstudio/master/rsth
 addTheme("https://raw.githubusercontent.com/davidgibsonp/ayu-rstudio/master/rstheme/ayu-dark.rstheme",
          apply = TRUE, force = TRUE)
 ```
+
+### Screenshots
+#### Mirage
+![Mirage](assets/mirage.png)
+
+#### Light
+![Light](assets/light.png)
+
+#### Dark
+![Dark](assets/dark.png)
